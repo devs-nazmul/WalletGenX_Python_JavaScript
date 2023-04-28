@@ -1,0 +1,8 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "dependencies": {
+   "pm2": "^5.3.0",
+    "sqlite3": "^5.1.6"
+  }
+}

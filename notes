@@ -1,0 +1,15 @@
+
+	ssh root@146.190.188.156
+
+
+	scp app.js package.json wallet.db root@146.190.188.156:/root/--
+	
+	scp loop.js root@146.190.188.156:/root/demo
+
+	pm2 start app.js --no-autorestart
+	
+	pm2 logs
+	pm2 monitor
+	
+	pm2 delete all
+
